@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    position: relative;
+    height: 900px;
+    background-image: url('c1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 55px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sec-content {
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sec-content h1 {
+    font-size: 4em;
+    /* Increase this value to make the text larger */
+}
+
+.sec-content h2 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 5.4em;
+    /* Increase this value to make the text larger */
+}
+
+.header-content h2 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.image-gallery {
+    text-align: center;
+    /* Center the images horizontally */
+    display: flex;
+    justify-content: center;
+    /* Center the images horizontally */
+    align-items: center
+        /* Center align the images vertically */
+}
+
+.image-gallery img {
+    display: inline-block;
+    margin: 20px;
+    /* Add space between images */
+    margin-top: 140px;
+    width: 400px;
+    height: 200px;
+    border-radius: 4%;
+}
+
+.image-gallery2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.image-gallery2 img {
+    width: 835px;
+    height: 200px;
+    border-radius: 4%;
+}
+
+.tourplans h1 {
+    margin-top: 100px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.image-gallery3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.image-gallery3 img {
+    width: 835px;
+    height: 300px;
+    border-radius: 4%;
+    margin-bottom: 30px;
+}
+
+.sectionLast {
+    position: relative;
+    height: 450px;
+    background-image: url('c1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: -16px;
+}
+
+footer {
+    height: 900px;
+    background-color: black;
+}
